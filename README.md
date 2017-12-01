@@ -1,7 +1,7 @@
 # react-stepper
 React component - Stepper Horizontal
 
-
+![](https://img15.hostingpics.net/pics/665598Capturedecran20171201a023419.png)
 ## Usage
 
 ```
