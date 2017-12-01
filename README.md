@@ -8,7 +8,7 @@ React component - Stepper Horizontal
 render() {
   return (
       <div>
-        <Stepper actual={this.state.activeStep} steppers={['Details du projet', 'Règles de paiment', 'Ajoutez-vos amis']} />
+        <Stepper actual={this.state.activeStep} steppers={['Details du projet', 'Règles de paiment', 'Ajoutez-vos amis']} validIcon="fa fa-check" />
       </div>
     );
   }
@@ -18,3 +18,5 @@ render() {
 | ------------- |:-------------:| -----:|
 | actual      | Actual Step of the Stepper | 0 |
 | steppers      | Array of all your step      |   array |
+| validIcon      | ClassName of your icon displayed for step done      |   string |
+
